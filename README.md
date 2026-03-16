@@ -94,6 +94,3 @@ The application will start, and you can use the hotkeys to control it.
 ## 📄 License
 
 This project can be considered under the **MIT License**. You are free to use, modify, and distribute it.
-
----
-*This README was generated with care, providing a detailed look into the project's architecture and functionality.*
