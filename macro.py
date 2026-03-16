@@ -13,8 +13,9 @@ paused = False
 events = []
 start_time = None
 
-RECORDING_FILE = 'recording.json'
-LOG_FILE = 'replay_log.txt'
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+RECORDING_FILE = os.path.join(SCRIPT_DIR, 'recording.json')
+LOG_FILE = os.path.join(SCRIPT_DIR, 'replay_log.txt')
 
 keyboard_listener = None
 mouse_listener = None
